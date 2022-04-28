@@ -1,0 +1,84 @@
+body{ 
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'sans-serif', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li{
+  list-style: none; 
+}
+a{
+  text-decoration: none;
+}
+                        /*Header*/
+header .nav-menu{  
+  justify-content: end;
+} 
+
+header .submenu .localizacao{
+  font-size: 12px;
+} 
+
+header .submenu ul{ 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav #header ul li a:hover{
+
+}
+.nav-menu li{ 
+  margin-right: 20px;   
+  color: black;
+}
+.nav #header li{   
+  margin: 1px;
+  padding: 5px;
+} 
+header .cart{
+  justify-content: end;
+}
+
+                    /*Fim Header*/
+                    /*card*/
+#card div {
+  width: 300PX;
+  height: 400px;
+}
+#card ul li{
+  text-align: center;
+}
+#card img{
+  display: flex; 
+  max-width: 80%;
+  position: relative;
+  top: 30px; 
+  left: 30px;
+}
+#card .card-body{ 
+  position: relative; 
+}
+#card figure h2{
+  font-size:16px;
+}
+#card .card-body a{ 
+  display:block;  
+  border: 1px aqua solid;
+  color: black;
+  font-size: 18px;
+} 
+#card .card-body a:hover{  
+  color: black;
+  font-size: 16px;  
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.559);
+  background-color:rgba(51, 255, 255, 0.529);
+}
+#card .card-body #preco-antes{
+  text-decoration: line-through gray 1px;
+  
+} 
+#card .card-body #preco-agora{
+  text-decoration:none;
+}
